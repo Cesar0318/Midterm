@@ -1,0 +1,43 @@
+body{
+	background: url(image/flower.jpg) fixed;
+	background-size: cover;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-family: 'Poiret One', cursive;
+	position: relative;
+	top:50%; 
+	font-size: 150px;	
+}
+
+
+/*______NAV. BAR________________________________________________*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.other{
+	float: right;
+}
